@@ -1,0 +1,87 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moothammayude Pattupetti</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <main class="container">
+
+        <div class="music-card">
+
+            <div class="music-icon">♫</div>
+
+            <p class="small-title">♪ OUR MUSIC COLLECTION ♪</p>
+
+            <h1>
+                Moothammayude<br>
+                <span>Pattupetti</span>
+            </h1>
+
+            <div class="divider">
+                <span>✦</span>
+            </div>
+
+            <p class="subtitle">
+                A little box of beautiful songs & memories
+            </p>
+
+            <!-- Current song -->
+            <div class="song-info">
+                <p class="playing-label">NOW PLAYING</p>
+                <p id="songTitle" class="song-name">Nattuvazhiyile</p>
+            </div>
+
+            <!-- Audio -->
+            <div class="player">
+                <audio id="audioPlayer">
+                    <source src="" type="audio/mpeg">
+                </audio>
+
+                <div class="controls">
+
+                    <button id="prevBtn" class="control-btn">
+                        ⏮
+                    </button>
+
+                    <button id="playBtn" class="play-btn">
+                        ▶
+                    </button>
+
+                    <button id="nextBtn" class="control-btn">
+                        ⏭
+                    </button>
+
+                </div>
+            </div>
+
+            <!-- Playlist -->
+            <div class="playlist" id="playlist"></div>
+
+            <div class="music-notes">
+                ♪ &nbsp; ♫ &nbsp; ♪
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
